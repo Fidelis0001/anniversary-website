@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background: linear-gradient(#b67be6, #ffad03);
+  font-family: "Architects Daughter", cursive;
+  color: aliceblue;
+  text-shadow: 0 0 1px black;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+#img-couple {
+  height: 310px;
+  width: 370px;
+  margin: auto;
+  border-radius: 50%;
+  border: 3px solid #ffcf70;
+}
+#aniv-names {
+  background-color: #eeae2d;
+  padding: 3px 10px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+#aniv-date {
+  background-color: #eeae2d;
+  padding: 3px 10px;
+  margin: 1px auto 10px;
+  border-radius: 10px;
+}
+
+.gift-img {
+  background-image: url("images/gift-img.jpg");
+  margin: 20px auto;
+  max-width: 500px;
+  height: 450px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+#gift-img-nsync:hover {
+  background-image: url(images/nsync.gif);
+}
+#gift-img-hot:hover {
+  background-image: url(images/hot.webp);
+}
+#gift-img-rapunzel:hover {
+  background-image: url(images/rap.gif);
+}
+#gift-img-smart:hover {
+  background-image: url(images/smart.gif);
+}
+#gift-img-cheers:hover {
+  background-image: url(images/cheers.gif);
+}
+#gift-img-cheers {
+  height: 300px;
+}
+@font-face {
+  font-family: summerlove;
+  src: url("smrlv/SummerLove.ttf");
+}
+#footer {
+  font-family: summerlove;
+  font-size: 50px;
+}
