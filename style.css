@@ -30,6 +30,9 @@ body {
   border-radius: 10px;
 }
 
+.gift-section {
+  margin-top: 50px;
+}
 .gift-img {
   background-image: url("images/gift-img.jpg");
   margin: 20px auto;
